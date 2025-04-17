@@ -1,38 +1,23 @@
 class one:
-    def coder(self):
-        print('one')
-
+    def programmer(self):
+        print('one line')
 
 class two:
-    def coder(self):
-        print('two')
+    def programmer(self):
+        print('two line')
 
 class three:
-    def coder(self):
-        print('one')
+    def programmer(self):
+        print('three line')
 
 def combine(obj):
-     obj.coder()
+    obj.programmer()
 
 
 obj1=one()
 obj2=two()
 obj3=three()
 
-
-for  combine in (obj1,obj2,obj3):
-     combine(obj)
-
-
-
-
-# class Cat:
-#     def animal(self):
-#        print('cat')
-
-
-# class Dog:
-#     def animal(self):
-#         print('dog')
-
-# def com
+for obj in (obj1,obj2,obj3):
+    combine(obj)
+    
