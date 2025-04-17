@@ -1,15 +1,27 @@
-class student:
+# class student:
+#     def study(self):
+#         print("studying")
+
+# class classroom:
+#     def __init__(self):
+#         self.ali=student()
+#         print('we are going to study')
+
+
+# obj=classroom()
+# obj.ali.study()
+
+
+class myclass:
     def study(self):
         print("studying")
-
-class classroom:
+class classRoom:
     def __init__(self):
-        self.ali=student()
-        print('we are going to study')
+        self.ania=myclass() 
+        print('hello') 
 
-
-obj=classroom()
-obj.ali.study()
+obj= classRoom()
+obj.ania.study()
 
 
 
