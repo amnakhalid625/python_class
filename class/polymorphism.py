@@ -19,4 +19,20 @@ obj1=one()
 obj2=two()
 obj3=three()
 
-print(obj1,obj2,obj3)
+
+for  combine in (obj1,obj2,obj3):
+     combine(obj)
+
+
+
+
+# class Cat:
+#     def animal(self):
+#        print('cat')
+
+
+# class Dog:
+#     def animal(self):
+#         print('dog')
+
+# def com
