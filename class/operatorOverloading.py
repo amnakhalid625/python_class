@@ -3,4 +3,5 @@ class OperatorOverloading:
         self.a = a
         self.b = b
 
-obj
+    def __add__(self, other):
+        return self.a + other.a
