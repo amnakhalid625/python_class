@@ -141,3 +141,5 @@ for person in all_people:
 # Show course summaries
 for course in dept1.courses + dept2.courses:
     course.show_summary()
+
+
