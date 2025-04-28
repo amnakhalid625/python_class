@@ -26,7 +26,7 @@ arr2=[
 
 # dictionary with the dict  
 
-dict_of_tuple = [
+dict_of_tuple=[
      'person1':{'name','alice','age'},
      'person2':{'name','bob','age'},
      'person3':{'name','alina','age'}
