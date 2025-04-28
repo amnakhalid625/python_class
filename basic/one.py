@@ -37,3 +37,11 @@ for h in name:
   for s in name:
     print(f"the age of {names[h]} is {ages[s]}")
 
+    # list forloop 
+
+
+# name 
+# ages
+# marks
+
+
