@@ -25,4 +25,15 @@ name.pop(1)
 print(name)
 
 # for loop
+things=['1','2', '3']
+for show in  things:
+    print(show)
+
+names=['alid','ahmad','abduallag']
+ages=[22,30,25]
+
+for h in name:
+
+  for s in name:
+    print(f"the age of {names[h]} is {ages[s]}")
 
