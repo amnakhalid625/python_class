@@ -8,11 +8,11 @@ if(grade>90):
 elif(grade>70):
     print('your grade is B')
 
-elif(grade>=4040):
+elif(grade>=40):
     print('your grade is c')
 
 else:
-   print('you are fail')
+    print('you are fail')
 
 # list
 
@@ -29,13 +29,13 @@ things=['1','2', '3']
 for show in  things:
     print(show)
 
-names=['alid','ahmad','abduallag']
+names=['alid','ahmad','abduallah']
 ages=[22,30,25]
 
-for h in name:
+for h in names:
 
-  for s in name:
-    print(f"the age of {names[h]} is {ages[s]}")
+  for s in ages:
+    print(f"the age of {h} is {s}")
 
     # list forloop 
 
