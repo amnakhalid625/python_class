@@ -6,12 +6,11 @@ student={
     "marks":90
 }
 
-print(student.get('name'))
+print(student['name'])
 
-
-for key in student:
-    if key=='name':
-        print('key found:name')
-        break
-    else:
-        print('key not found')
+# for key in student:
+#     if key=='name':
+#         print('key found:name')
+#         break
+#     else:
+#         print('key not found')
