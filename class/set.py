@@ -14,12 +14,13 @@ print(sdudent)
 
 student =set([22,4,3,2,2,2])
 added=student.add(44)
-removed=student.remove(4)
+# removed=student.remove(4)
 
 
+
+
+student.discard(4)
 print(student)
 
-
-marks.discard
 
 
