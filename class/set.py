@@ -61,4 +61,3 @@ even=lambda a:a%2==0
 even_numbers=filter(even,sorted_num)
 print(type(even_numbers))
 
-
