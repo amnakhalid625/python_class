@@ -33,17 +33,6 @@ wheels = [
 ]
 
 [[package]]
-name = "first-project"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "flask" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "flask", specifier = ">=3.1.0" }]
-
-[[package]]
 name = "flask"
 version = "3.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -58,6 +47,17 @@ sdist = { url = "https://files.pythonhosted.org/packages/89/50/dff6380f1c7f84135
 wheels = [
     { url = "https://files.pythonhosted.org/packages/af/47/93213ee66ef8fae3b93b3e29206f6b251e65c97bd91d8e1c5596ef15af0a/flask-3.1.0-py3-none-any.whl", hash = "sha256:d667207822eb83f1c4b50949b1623c8fc8d51f2341d65f72e1a1815397551136", size = 102979, upload-time = "2024-11-13T18:24:36.135Z" },
 ]
+
+[[package]]
+name = "flask-first-project"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "flask" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "flask", specifier = ">=3.1.0" }]
 
 [[package]]
 name = "itsdangerous"

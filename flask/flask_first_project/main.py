@@ -1,5 +1,5 @@
 def main():
-    print("Hello from first-project!")
+    print("Hello from flask-first-project!")
 
 
 if __name__ == "__main__":
