@@ -1,14 +1,11 @@
+{% load static}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-
-
-
 
     <!-- Favicons -->
 <link href="{% static 'assets/images/favicon.png' %}" rel="icon">
@@ -29,7 +26,8 @@
 <!-- Main CSS File -->
 <link href="{% static 'css/main.css' %}" rel="stylesheet">
 
-{% block content %}
+</head>
+<body>
 <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
@@ -73,6 +71,8 @@
     </div>
   </header>
 
+
+  { % block content %}
 
 
 
