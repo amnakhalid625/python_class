@@ -96,7 +96,7 @@ class University:
             student.enrolled_course.append(course.title)
 
 
-# Sample Data
+# Sample Data here
 
 # Teachers
 teacher1 = Teacher("Mam Amna", "amna@gmail.com", "Female", 2, "T001", "CS", [])
